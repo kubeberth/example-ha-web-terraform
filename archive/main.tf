@@ -14,5 +14,5 @@ provider "kubeberth" {
 
 resource "kubeberth_archive" "ubuntu-2004" {
   name       = "ubuntu-20.04"
-  repository = "http://minio.home.arpa:9000/kubevirt/images/ubuntu-20.04-server-cloudimg-arm64.img"
+  repository = "http://minio.home.arpa:9000/kubeberth/images/ubuntu-20.04-server-cloudimg-arm64.img"
 }
